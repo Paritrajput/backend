@@ -16,7 +16,7 @@ userRouter.get("/h", (req, res) => {
 });
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your frontend URL
+    origin: "https://newsbasecom.vercel.app/", // Replace with your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"], // Specify the headers you want to allow
   })
