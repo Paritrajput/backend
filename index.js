@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 console.log("Port: ", process.env.PORT);
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your frontend URL
+    origin: "https://newsbasecom.vercel.app/", // Replace with your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"], // Specify the headers you want to allow
   })
