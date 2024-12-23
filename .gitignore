@@ -24,8 +24,7 @@ jspm_packages/
 dist/
 build/
 
-# Static files
-public/
+
 
 # Debug tools
 .vscode/
